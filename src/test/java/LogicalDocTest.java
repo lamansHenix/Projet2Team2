@@ -56,7 +56,7 @@ import java.util.List;
 		public static Collection<String[]> getTestCases() throws XmlException, IOException, SoapUIException {
 			final ArrayList<String[]> testCases = new ArrayList<String[]>();
 			WsdlProject project = new WsdlProject("src/test/resources/LogicalDoc-soapui-project.xml");
-			TestSuite TS = project.getTestSuiteByName("Cas Nominal");
+			TestSuite TS = project.getTestSuiteByName("Cas Nominal 2");
 			//List<TestSuite> testSuites = project.getTestSuiteList();
 			//for (TestSuite suite : testSuites) {
 				//List<TestCase> lTestCases = suite.getTestCaseList();
@@ -84,7 +84,7 @@ import java.util.List;
 		public static boolean runSoapUITestCase(String testCase) throws XmlException, IOException, SoapUIException {
 			TestRunner.Status exitValue = TestRunner.Status.INITIALIZED;
 			WsdlProject soapuiProject = new WsdlProject("src/test/resources/LogicalDoc-soapui-project.xml");
-			TestSuite TS = soapuiProject.getTestSuiteByName("Cas Nominal");
+			TestSuite TS = soapuiProject.getTestSuiteByName("Cas Nominal 2");
 				System.out.println("[SEARCH] recherche du TC ["+testCase+"] dans la suite "+ TS.getName().toUpperCase());
 				TestCase soapuiTestCase = TS.getTestCaseByName(testCase);
 				if (soapuiTestCase == null)
@@ -99,24 +99,24 @@ import java.util.List;
 					if(exitValue == TestRunner.Status.FINISHED) 
 					{
 						System.out.println("[END] : Cas de test soapUI terminé ('" + TS.getName().toUpperCase() + "':[" + testCase + "]) : " + exitValue);
-						String testCasePropertyDossier = TS.getPropertyValue("recup_IdDossier").toString(); 
-						String testCasePropertyFichier = TS.getPropertyValue("FichierEnvoi").toString();
-						System.out.println();
-						System.out.println("recup_IdDossier = " + testCasePropertyDossier + " ");
-						System.out.println();
-						System.out.println("FichierEnvoi = " + testCasePropertyFichier + " ");
+//						String testCasePropertyDossier = TS.getPropertyValue("recup_IdDossier").toString(); 
+//						String testCasePropertyFichier = TS.getPropertyValue("FichierEnvoi").toString();
+//						System.out.println();
+//						System.out.println("recup_IdDossier = " + testCasePropertyDossier + " ");
+//						System.out.println();
+//						System.out.println("FichierEnvoi = " + testCasePropertyFichier + " ");
 						return true;
 					}
 				}
 
 		
 				System.out.println("[END] : Cas de test soapUI terminé ('" + TS.getName().toUpperCase() + "':[" + testCase + "]) Status : " + exitValue);
-				String testCasePropertyDossier = TS.getPropertyValue("recup_IdDossier").toString(); 
-				String testCasePropertyFichier = TS.getPropertyValue("FichierEnvoi").toString();
-				System.out.println();
-				System.out.println("recup_IdDossier = " + testCasePropertyDossier + " ");
-				System.out.println();
-				System.out.println("FichierEnvoi = " + testCasePropertyFichier + " ");
+//				String testCasePropertyDossier = TS.getPropertyValue("recup_IdDossier").toString(); 
+//				String testCasePropertyFichier = TS.getPropertyValue("FichierEnvoi").toString();
+//				System.out.println();
+//				System.out.println("recup_IdDossier = " + testCasePropertyDossier + " ");
+//				System.out.println();
+//				System.out.println("FichierEnvoi = " + testCasePropertyFichier + " ");
 				return false;
 			}
 		
@@ -136,7 +136,7 @@ public class LogicalDocTest {
 	@Parameters(name = "{0}")
 	public static Collection<String[]> getTestCases() throws XmlException, IOException, SoapUIException {
 		final ArrayList<String[]> testCases = new ArrayList<String[]>();
-		WsdlProject project = new WsdlProject("src/test/resources/LogicalDoc-soapui-project.xml");
+		WsdlProject project = new WsdlProject("src/test/resources/GaelLogicalDoc.xml");
 		List<TestSuite> testSuites = project.getTestSuiteList();
 		for (TestSuite suite : testSuites) {
 			List<TestCase> lTestCases = suite.getTestCaseList();
@@ -159,7 +159,7 @@ public class LogicalDocTest {
 
 	public static boolean runSoapUITestCase(String testCase) throws XmlException, IOException, SoapUIException {
 		TestRunner.Status exitValue = TestRunner.Status.INITIALIZED;
-		WsdlProject soapuiProject = new WsdlProject("src/test/resources/LogicalDoc-soapui-project.xml");
+		WsdlProject soapuiProject = new WsdlProject("src/test/resources/GaelLogicalDoc.xml");
 		List<TestSuite> testSuites = soapuiProject.getTestSuiteList();
 		if (testSuites.size()==0) {
 			System.err.println("[ERROR] runner soapUI, Aucune suite de test dans le projet ");
