@@ -43,7 +43,7 @@ import java.util.List;
 //		}
 //	
 	
-/*	@RunWith(Parameterized.class)
+	@RunWith(Parameterized.class)
 	public class LogicalDocTest {
 		private String testCaseName;
 	
@@ -85,12 +85,6 @@ import java.util.List;
 			TestRunner.Status exitValue = TestRunner.Status.INITIALIZED;
 			WsdlProject soapuiProject = new WsdlProject("src/test/resources/LogicalDoc-soapui-project.xml");
 			TestSuite TS = soapuiProject.getTestSuiteByName("Cas Nominal");
-		//	List<TestSuite> testSuites = soapuiProject.getTestSuiteList();
-//			if (testSuites.size()==0) {
-//				System.err.println("[ERROR] runner soapUI, Aucune suite de test dans le projet ");
-//				return false;
-//			}
-			//for (TestSuite suite : testSuites) {
 				System.out.println("[SEARCH] recherche du TC ["+testCase+"] dans la suite "+ TS.getName().toUpperCase());
 				TestCase soapuiTestCase = TS.getTestCaseByName(testCase);
 				if (soapuiTestCase == null)
@@ -115,7 +109,8 @@ import java.util.List;
 					}
 				}
 
-			//}
+		
+				System.out.println("[END] : Cas de test soapUI terminé ('" + TS.getName().toUpperCase() + "':[" + testCase + "]) Status : " + exitValue);
 				String testCasePropertyDossier = TS.getPropertyValue("recup_IdDossier").toString(); 
 				String testCasePropertyFichier = TS.getPropertyValue("FichierEnvoi").toString();
 				System.out.println();
@@ -127,10 +122,10 @@ import java.util.List;
 		
 		
 		
-		}*/
+		}
 
 
-@RunWith(Parameterized.class)
+/*@RunWith(Parameterized.class)
 public class LogicalDocTest {
 	private String testCaseName;
 
@@ -180,7 +175,7 @@ public class LogicalDocTest {
 				TestCaseRunner runner = soapuiTestCase.run(new PropertiesMap(), false);
 				exitValue = runner.getStatus();
 				if(exitValue == TestRunner.Status.FINISHED) {
-					System.out.println("[END] : Cas de test soapUI terminé ('" + suite.getName().toUpperCase() + "':[" + testCase + "]) : " + exitValue);
+					System.out.println("[END] : Cas de test soapUI terminé ('" + suite.getName().toUpperCase() + "':[" + testCase + "]) Status : " + exitValue);
 					String testCasePropertyDossier = suite.getPropertyValue("recup_IdDossier"); 
 					String testCasePropertyFichier = suite.getPropertyValue("FichierEnvoi");
 					System.out.println();
@@ -189,6 +184,7 @@ public class LogicalDocTest {
 					System.out.println("FichierEnvoi = " + testCasePropertyFichier + " ");
 					return true;
 				}
+				System.out.println("[END] : Cas de test soapUI terminé ('" + suite.getName().toUpperCase() + "':[" + testCase + "]) Status : " + exitValue);
 				String testCasePropertyDossier = suite.getPropertyValue("recup_IdDossier"); 
 				String testCasePropertyFichier = suite.getPropertyValue("FichierEnvoi");
 				System.out.println();
@@ -201,7 +197,7 @@ public class LogicalDocTest {
 		
 			return false;
 		}
-	}
+	}*/
 	
 	
 	
