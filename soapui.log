@@ -1,32 +1,32 @@
-2020-09-07 10:34:08,080 WARN  [SoapUI] Missing folder [G:\Formation AUTOM Distancielle\Workspace\Projet2\ext] for external libraries
-2020-09-07 10:34:08,309 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Zaickan\soapui-settings.xml]
-2020-09-07 10:34:09,007 INFO  [PluginManager] 0 plugins loaded in 5 ms
-2020-09-07 10:34:09,007 INFO  [DefaultSoapUICore] All plugins loaded
-2020-09-07 10:34:09,876 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:10,160 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:10,787 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:10,894 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:11,642 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
-2020-09-07 10:34:11,659 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
-2020-09-07 10:34:11,662 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
-2020-09-07 10:34:11,664 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
-2020-09-07 10:34:11,665 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
-2020-09-07 10:34:11,670 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
-2020-09-07 10:34:11,674 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
-2020-09-07 10:34:11,698 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
-2020-09-07 10:34:11,706 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
-2020-09-07 10:34:11,707 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
-2020-09-07 10:34:11,708 INFO  [SchemaUtils] Loading schema types from [http://88.121.136.76:16384/logicaldoc/services/Document?wsdl]
-2020-09-07 10:34:11,708 INFO  [SchemaUtils] Getting schema http://88.121.136.76:16384/logicaldoc/services/Document?wsdl
-2020-09-07 10:34:11,716 INFO  [SchemaUtils] Getting schema http://88.121.136.76:16384/logicaldoc/services/Document?wsdl=Document.wsdl
-2020-09-07 10:34:12,447 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:12,530 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:12,710 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:12,794 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:12,890 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:12,940 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:13,094 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:13,147 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:13,334 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:13,463 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
-2020-09-07 10:34:13,503 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:39,715 WARN  [SoapUI] Missing folder [G:\Formation AUTOM Distancielle\Workspace\Projet2\ext] for external libraries
+2020-09-07 11:03:39,944 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Zaickan\soapui-settings.xml]
+2020-09-07 11:03:40,732 INFO  [PluginManager] 0 plugins loaded in 4 ms
+2020-09-07 11:03:40,733 INFO  [DefaultSoapUICore] All plugins loaded
+2020-09-07 11:03:41,654 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:41,797 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:42,479 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:42,597 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:43,311 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2020-09-07 11:03:43,327 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2020-09-07 11:03:43,329 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2020-09-07 11:03:43,330 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2020-09-07 11:03:43,331 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2020-09-07 11:03:43,331 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2020-09-07 11:03:43,332 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2020-09-07 11:03:43,353 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2020-09-07 11:03:43,354 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2020-09-07 11:03:43,361 INFO  [SchemaUtils] Added default schema from file:/C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2020-09-07 11:03:43,365 INFO  [SchemaUtils] Loading schema types from [http://88.121.136.76:16384/logicaldoc/services/Document?wsdl]
+2020-09-07 11:03:43,365 INFO  [SchemaUtils] Getting schema http://88.121.136.76:16384/logicaldoc/services/Document?wsdl
+2020-09-07 11:03:43,385 INFO  [SchemaUtils] Getting schema http://88.121.136.76:16384/logicaldoc/services/Document?wsdl=Document.wsdl
+2020-09-07 11:03:44,146 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:44,259 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:44,350 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:44,476 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:44,576 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:44,632 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:44,684 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:44,732 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:44,844 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:45,000 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
+2020-09-07 11:03:45,053 INFO  [WsdlProject] Loaded project from [file:/G:/Formation%20AUTOM%20Distancielle/Workspace/Projet2/src/test/resources/LogicalDoc-soapui-project.xml]
